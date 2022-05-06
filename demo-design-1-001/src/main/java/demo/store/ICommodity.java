@@ -1,4 +1,4 @@
-package com.hxm.design.demo.store;
+package demo.store;
 
 import java.util.Map;
 

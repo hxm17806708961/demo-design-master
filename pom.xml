@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>demo-design-1-00</module>
+        <module>demo-design-1-001</module>
     </modules>
 
     <properties>

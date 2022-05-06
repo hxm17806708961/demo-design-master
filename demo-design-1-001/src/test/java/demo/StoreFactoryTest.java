@@ -1,6 +1,6 @@
-package com.hxm.design.demo;
+package demo;
 
-import com.hxm.design.demo.store.ICommodity;
+import demo.store.ICommodity;
 import junit.framework.TestCase;
 import org.junit.Test;
 
@@ -16,12 +16,12 @@ public class StoreFactoryTest extends TestCase {
         commodityService1.sendCommodity("1231", "hhh", "aaa", null);
 
         ICommodity commodityService2 = StoreFactory.getCommodityService(2);
-        commodityService1.sendCommodity("1231", "hhh", "aaa", null);
+        commodityService2.sendCommodity("1231", "hhh", "aaa", null);
 
         ICommodity commodityService3 = StoreFactory.getCommodityService(3);
-        commodityService1.sendCommodity("1231", "hhh", "aaa", null);
+        commodityService3.sendCommodity("1231", "hhh", "aaa", null);
 
         ICommodity commodityService4 = StoreFactory.getCommodityService(4);
-        commodityService1.sendCommodity("1231", "hhh", "aaa", null);
+        commodityService4.sendCommodity("1231", "hhh", "aaa", null);
     }
 }

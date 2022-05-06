@@ -1,9 +1,9 @@
-package com.hxm.design.demo;
+package demo;
 
-import com.hxm.design.demo.store.ICommodity;
-import com.hxm.design.demo.store.impl.CardCommodityService;
-import com.hxm.design.demo.store.impl.CouponCommodityService;
-import com.hxm.design.demo.store.impl.GoodsCommodityService;
+import demo.store.ICommodity;
+import demo.store.impl.CardCommodityService;
+import demo.store.impl.CouponCommodityService;
+import demo.store.impl.GoodsCommodityService;
 
 import java.util.Objects;
 
