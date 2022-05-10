@@ -17,6 +17,8 @@
         <module>demo-design-3-00</module>
         <module>demo-design-3-01</module>
         <module>demo-design-3-03</module>
+        <module>demo-design-4-00</module>
+        <module>demo-design-4-01</module>
     </modules>
 
     <properties>
